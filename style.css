@@ -1,0 +1,172 @@
+body{
+    background-color: #EDEDEB;
+}
+
+h1{
+    font-family:'Yeseva One';
+    font-size: 8vh;
+    color: #707070;
+    text-align: left;
+    margin-left: 12vh;
+    margin-top: 8vh;
+}
+h2{
+    font-family:'Yeseva One';
+    font-size:8vh;
+    color: #707070;
+    text-align: left;
+    margin-left: 29vh;
+    margin-top: -3vh;
+}
+
+h3{
+    font-family:'Yeseva One';
+    font-size:5vh;
+    color: #707070; 
+    text-align: left;
+    margin-left: 12vh;
+    margin-top: 20vh;
+}
+
+h4{
+    font-family:'Yeseva One';
+    font-size:2.5vh;
+    color: #707070; 
+    text-align: left;
+    margin-left: 12vh;
+    margin-top: 7vh;
+}
+
+
+p{
+    font-family: 'Noto Serif', serif;
+    color: #707070;
+    font-size: 2.1vh;
+    margin-left: 12vh;
+    max-width: 65ch;
+}
+
+/* Fjerne stregerne under */
+nav a{
+    text-decoration: none;
+    color: #707070;
+    font-family: 'Yeseva One';
+
+}
+
+nav > ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    padding: 0;
+    margin-top: 6vh;
+    font-size: 2.2vh;
+}
+
+footer{
+    height: 10vh;
+}
+
+img{
+    max-width: 100%;
+    width: 25%;
+    border-radius: 185px;
+    position: absolute;
+    top: 9em;
+    left: 58em;
+}
+
+.streg1{
+    width: 45%;
+    position: absolute;
+    margin-left: 3vh;
+    top: 20.5vh;
+    left: 3.3vh;
+}
+
+.streg2{
+    width: 45%;
+    position: absolute;
+    margin-left: 3vh;
+    top: 50.5vh;
+    left: 23.5vh;
+}
+
+
+@media (max-width:800px){
+    h1{
+    font-family:'Yeseva One';
+    font-size: 5vh;
+    color: #707070;
+    text-align: left;
+    margin-left: 3vh;
+    }
+   
+    h2{
+    font-family:'Yeseva One';
+    font-size:5vh;
+    color: #707070;
+    text-align: left;
+    margin-left: 3vh;
+    }
+    
+    h3{
+    font-family:'Yeseva One';
+    font-size:4vh;
+    color: #707070; 
+    text-align: left;
+    margin-left: 3vh;
+    }
+
+    h4{
+    font-family:'Yeseva One';
+    font-size:3vh;
+    color: #707070; 
+    text-align: left;
+    margin-left: 3vh;
+    }
+    
+    p{
+    font-family: 'Noto Serif', serif;
+    color: #707070;
+    font-size: 1.8vh;
+    margin-left: 3vh;
+    max-width: 40ch;
+    }
+
+    nav > ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 0;
+    margin-top: 6vh;
+    font-size: 2.2vh;
+    }
+
+    img{
+    max-width: 100%;
+    width: 25%;
+    border-radius: 185px;
+    position: absolute;
+    top: 14em;
+    left: 25em;
+    }
+
+    .streg1{
+    width: 60%;
+    position: absolute;
+    margin-left: 3vh;
+    top: 16.5vh;
+    left: -1vh;
+    }
+
+    .streg2{
+    width: 60%;
+    position: absolute;
+    margin-left: 3vh;
+    top: 59vh;
+    left: 10vh;
+    }
+}

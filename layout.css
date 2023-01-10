@@ -1,0 +1,312 @@
+body{
+    background-color: #EDEDEB;
+}
+
+h1{
+    font-family:'Yeseva One';
+    font-size: 10vh;
+    color: #707070;
+    text-align: center;
+    margin-top: 32vh;
+}
+
+h2{
+    font-family: 'Yeseva One';
+    font-size: 3.5vh;
+    color: #707070;
+    text-align: center;
+    margin-top: -56px;
+}
+
+p{
+    font-family: 'Noto Serif', serif;
+}
+
+/* Fjerne stregerne under */
+nav a{
+    text-decoration: none;
+    color: #707070;
+    font-family: 'Yeseva One';
+
+}
+
+nav > ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    padding: 0;
+    margin-top: 6vh;
+    font-size: 2.2vh;
+}
+
+#pil{
+    max-width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-top: 30vh;
+}
+
+footer{
+    height: 10vh;
+}
+
+.venstre{
+    max-width: 100%;
+    width: 32%;
+    border-radius: 15px;
+    position: absolute;
+    top: 56.2em;
+    left: 11em;
+}
+
+
+.højre{
+    max-width: 100%;
+    width: 32%;
+    border-radius: 15px;
+    position: absolute;
+    top: 56em;
+    left: 50em;
+}
+
+.venstre2{
+    max-width: 100%;
+    width: 32%;
+    border-radius: 15px;
+    position: absolute;
+    top: 80em;
+    left: 11em;
+}
+
+.højre2{
+    max-width: 100%;
+    width: 32%;
+    border-radius: 15px;
+    position: absolute;
+    top: 80em;
+    left: 50em;
+}
+
+.venstre3{
+    max-width: 100%;
+    width: 32%;
+    border-radius: 15px;
+    position: absolute;
+    top: 104em;
+    left: 11em;
+}
+
+.højre3{
+    max-width: 100%;
+    width: 32%;
+    border-radius: 15px;
+    position: absolute;
+    top: 104em;
+    left: 50em;
+}
+
+.venstreoverskrift{
+        text-decoration: none;
+        font-family: 'Yeseva One';
+        font-size: 11vh;
+        color: #707070;
+        position: absolute;
+        left: 28vh;
+        top: 121vh;
+}
+
+.højreoverskrift{
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-size: 11vh;
+    color: #707070;
+    position: absolute;
+    left: 107vh;
+    top: 121vh;
+}
+
+.venstreoverskrift2{
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-size: 11vh;
+    color: #707070;
+    position: absolute;
+    left: 30vh;
+    top: 169vh;
+}
+
+.højreoverskrift2{
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-size: 11vh;
+    color: #707070;
+    position: absolute;
+    left: 107vh;
+    top: 169vh;
+}
+
+.venstreoverskrift3{
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-size: 11vh;
+    color: #707070;
+    position: absolute;
+    left: 30vh;
+    top: 216vh;
+}
+
+.højreoverskrift3{
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-size: 11vh;
+    color: #707070;
+    position: absolute;
+    left: 107vh;
+    top: 216vh;
+}
+
+@media (max-width:800px){
+    h1{
+    font-family:'Yeseva One';
+    font-size: 5vh;
+    color: #707070;
+    text-align: center;
+    }
+
+    h2{
+        font-family: 'Yeseva One';
+        font-size: 3vh;
+        color: #707070;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    nav > ul{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        padding: 0;
+        margin-top: 6vh;
+        font-size: 2.2vh;
+    }
+
+    .venstre{
+        max-width: 100%;
+        width: 70%;
+        border-radius: 15px;
+        position: absolute;
+        left: 9vh;
+        top: 56.2em;
+    }
+
+    .venstreoverskrift{
+            text-decoration: none;
+            font-family: 'Yeseva One';
+            font-size: 8vh;
+            color: #707070;
+            position: absolute;
+            left: 15vh;
+            top: 131vh;
+    }
+
+    .højre{
+        max-width: 100%;
+        width: 70%;
+        border-radius: 15px;
+        position: absolute;
+        left: 9vh;
+        top: 72em;
+    }
+
+    .højreoverskrift{
+        text-decoration: none;
+        font-family: 'Yeseva One';
+        font-size: 8vh;
+        color: #707070;
+        position: absolute;
+        left: 17vh;
+        top: 166vh;
+    }
+
+    .venstre2{
+        max-width: 100%;
+        width: 70%;
+        border-radius: 15px;
+        position: absolute;
+        left: 9vh;
+        top: 88em;
+    }
+
+    .venstreoverskrift2{
+        text-decoration: none;
+        font-family: 'Yeseva One';
+        font-size: 8vh;
+        color: #707070;
+        position: absolute;
+        left: 17vh;
+        top: 201vh;
+    }
+
+    .højre2{
+        max-width: 100%;
+        width: 70%;
+        border-radius: 15px;
+        position: absolute;
+        left: 9vh;
+        top: 104em;
+    }
+
+    .højreoverskrift2{
+        text-decoration: none;
+        font-family: 'Yeseva One';
+        font-size: 8vh;
+        color: #707070;
+        position: absolute;
+        left: 17vh;
+        top: 236vh;
+    }
+
+    .venstre3{
+        max-width: 100%;
+        width: 70%;
+        border-radius: 15px;
+        position: absolute;
+        left: 9vh;
+        top: 262vh;
+    }
+
+    .venstreoverskrift3{
+        text-decoration: none;
+        font-family: 'Yeseva One';
+        font-size: 8vh;
+        color: #707070;
+        position: absolute;
+        left: 17vh;
+        top: 271vh;
+    }
+
+    .højre3{
+        max-width: 100%;
+        width: 70%;
+        border-radius: 15px;
+        position: absolute;
+        left: 9vh;
+        top: 297vh;
+    }
+
+    .højreoverskrift3{
+        text-decoration: none;
+        font-family: 'Yeseva One';
+        font-size: 8vh;
+        color: #707070;
+        position: absolute;
+        left: 17vh;
+        top: 306vh;
+    }
+
+    footer{
+        height: 10vh;
+    }
+}
